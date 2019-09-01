@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!-- 默认的注解映射 -->
+    <mvc:annotation-driven />
+
+    <!-- 解除servlet对静态资源文件访问的限制，使得静态资源先经过 -->
+    <mvc:default-servlet-handler />
+
+    <!-- 测试控制器 -->
+    <bean name="test" class="com.controller.TestController"/>
+    <!-- 主控制器 -->
+    <bean name="index" class="com.controller.IndexController"/>
+    <!-- 管理员控制器 -->
+    <bean name="admin" class="com.controller.AdminController"/>
+    <!-- 用户控制器 -->
+    <bean name="user" class="com.controller.UserController"/>
+    <!-- 订单控制器 -->
+    <bean name="order" class="com.controller.OrderController"/>
+    <!-- 店铺控制器 -->
+    <bean name="store" class="com.controller.StoreController"/>
+    <!-- 商品控制器 -->
+    <bean name="goods" class="com.controller.GoodsController"/>
+    <!-- 收藏夹控制器 -->
+    <bean name="collect" class="com.controller.CollectController"/>
+    <!-- 购物车控制器 -->
+    <bean name="cart" class="com.controller.CartController"/>
+    <!-- 关于控制器 -->
+    <bean name="about" class="com.controller.AboutController"/>
+    <!--发现控制器 -->
+    <bean name="find" class="com.controller.FindController"/>
+    <!-- 商务合作控制器 -->
+    <bean name="coop" class="com.controller.CoopController"/>
+    <!-- 文件控制器 -->
+    <bean name="upload" class="com.controller.UploadController"/>
+    <!-- 反馈控制器 -->
+    <bean name="feedback" class="com.controller.FeedbackController"/>
+    <!-- 验证码控制器 -->
+    <bean name="vcode" class="com.controller.VcodeController"/>
+    <!-- 地图控制器 -->
+    <bean name="map" class="com.controller.MapController"/>
+    <!-- 拍卖会控制器 -->
+    <bean name="auction" class="com.controller.AuctionController"/>
+    <!-- 邮件控制器 -->
+    <bean name="email" class="com.controller.EmailController"/>
+    <!-- 短信控制器 -->
+    <bean name="sms" class="com.controller.SMSController"/>
+
+    <!-- 默认根目录 -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/view/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!-- 文件上传配置 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- 请求编码格式 -->
+        <property name="defaultEncoding" value="utf-8"/>
+        <!-- 上传文件大小(单位:字节) -->
+        <property name="maxUploadSize" value="50000000"/>
+        <!-- 缓冲区大小(单位:KB) -->
+        <property name="maxInMemorySize" value="10240"/>
+    </bean>
+</beans>

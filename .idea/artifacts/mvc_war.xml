@@ -1,0 +1,48 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mvc:war">
+    <output-path>$PROJECT_DIR$/..</output-path>
+    <root id="archive" name="mvc_war.war">
+      <element id="artifact" artifact-name="mvc:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/httpclient.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mail-1.4.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.17.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/activation-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/aopalliance-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.3.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-jms-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-orm-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-oxm-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/android-logging-log4j-1.0.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.17.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.39-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-messaging-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-websocket-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../qcloudsms-1.0.6.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

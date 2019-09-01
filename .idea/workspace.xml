@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mvc:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b10f3eff-3011-4417-bda8-003d1a17992d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="team2@39.105.28.118" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="team2@39.105.28.118" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="team2@39.105.28.118" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="team2: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mvc" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="jsf" />
+        <option value="Jspx File" />
+        <option value="AnnotationType" />
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web/WEB-INF/view/auction/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1OVGEWH2wfSVyceM4AFLSgw1YRU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="js.last.introduce.type" value="VAR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20229885" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zx151\Desktop\mvc\web\WEB-INF\view\m" />
+      <recent name="C:\Users\zx151\Desktop\mvc\src\com\model\sms" />
+      <recent name="C:\Users\zx151\Desktop\mvc\src\com\model\sms2" />
+      <recent name="C:\Users\zx151\Desktop\mvc\src\com\model" />
+      <recent name="C:\Users\zx151\Desktop\mvc\web\WEB-INF\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zx151\Desktop\www\web\WEB-INF\view" />
+      <recent name="C:\Users\zx151\Desktop\www\web\WEB-INF" />
+      <recent name="C:\Users\zx151\Desktop\www\web" />
+      <recent name="D:\SUB\PRO\Java\mvc\web" />
+      <recent name="D:\SUB\PRO\Java\mvc\web\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="mvc" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="11">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="mvc:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+        <file path="$PROJECT_DIR$/web/upload">
+          <settings>
+            <option name="CONTEXT_PATH" value="/upload" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mvc_7" />
+        <option name="HTTP_PORT" value="80" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50607" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mvc:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f9f33983" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f9f33983" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4184bedb" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b10f3eff-3011-4417-bda8-003d1a17992d" name="Default Changelist" comment="" />
+      <created>1563719441308</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563719441308</updated>
+      <workItem from="1563719442700" duration="7329000" />
+      <workItem from="1563761511365" duration="20245000" />
+      <workItem from="1563802974060" duration="929000" />
+      <workItem from="1563804327033" duration="87000" />
+      <workItem from="1563804745278" duration="246000" />
+      <workItem from="1563805154880" duration="12433000" />
+      <workItem from="1563847278523" duration="1156000" />
+      <workItem from="1564054920534" duration="256000" />
+      <workItem from="1564055249203" duration="20205000" />
+      <workItem from="1564101770770" duration="10401000" />
+      <workItem from="1564245770481" duration="621000" />
+      <workItem from="1564373256337" duration="8188000" />
+      <workItem from="1564384915070" duration="78000" />
+      <workItem from="1564385016647" duration="2155000" />
+      <workItem from="1564388234020" duration="23370000" />
+      <workItem from="1564456316801" duration="44703000" />
+      <workItem from="1564549595596" duration="20257000" />
+      <workItem from="1564627001914" duration="9621000" />
+      <workItem from="1564638742218" duration="18417000" />
+      <workItem from="1564710837804" duration="1962000" />
+      <workItem from="1564721763543" duration="686000" />
+      <workItem from="1564736686415" duration="191000" />
+      <workItem from="1564756146131" duration="8794000" />
+      <workItem from="1564795653676" duration="4026000" />
+      <workItem from="1564799727355" duration="35490000" />
+      <workItem from="1564877485806" duration="7258000" />
+      <workItem from="1564984689517" duration="2340000" />
+      <workItem from="1564987547480" duration="197000" />
+      <workItem from="1564987872430" duration="8994000" />
+      <workItem from="1565007717040" duration="979000" />
+      <workItem from="1565008912739" duration="11787000" />
+      <workItem from="1565073443713" duration="10947000" />
+      <workItem from="1565073443713" duration="232000" />
+      <workItem from="1565086583995" duration="513000" />
+      <workItem from="1565096645295" duration="12805000" />
+      <workItem from="1565109586158" duration="354000" />
+      <workItem from="1565110317665" duration="813000" />
+      <workItem from="1565111402341" duration="114000" />
+      <workItem from="1565304271134" duration="33250000" />
+      <workItem from="1565477737776" duration="26165000" />
+      <workItem from="1565524929411" duration="14370000" />
+      <workItem from="1565576843405" duration="7672000" />
+      <workItem from="1565603079824" duration="2288000" />
+      <workItem from="1565616552193" duration="4573000" />
+      <workItem from="1565654742271" duration="48555000" />
+      <workItem from="1565738998485" duration="2354000" />
+      <workItem from="1565748892588" duration="19398000" />
+      <workItem from="1565786227758" duration="9411000" />
+      <workItem from="1565822482060" duration="2109000" />
+      <workItem from="1565824715436" duration="5101000" />
+      <workItem from="1565830767353" duration="813000" />
+      <workItem from="1565833787460" duration="13414000" />
+      <workItem from="1565860527860" duration="23343000" />
+      <workItem from="1565935386817" duration="56000" />
+      <workItem from="1565939599891" duration="3143000" />
+      <workItem from="1565943898073" duration="25536000" />
+      <workItem from="1565994995280" duration="2905000" />
+      <workItem from="1565999386933" duration="40874000" />
+      <workItem from="1566086446625" duration="40000" />
+      <workItem from="1566086508790" duration="3972000" />
+      <workItem from="1566092280181" duration="3542000" />
+      <workItem from="1566104953887" duration="2733000" />
+      <workItem from="1566807759619" duration="94000" />
+      <workItem from="1566807933990" duration="1257000" />
+      <workItem from="1566890411376" duration="27030000" />
+      <workItem from="1566964359318" duration="625000" />
+      <workItem from="1566973090213" duration="6275000" />
+      <workItem from="1566980783295" duration="74000" />
+      <workItem from="1566980879851" duration="20788000" />
+      <workItem from="1567015528077" duration="642000" />
+      <workItem from="1567047635495" duration="5878000" />
+      <workItem from="1567059684551" duration="220000" />
+      <workItem from="1567093305591" duration="443000" />
+      <workItem from="1567218428666" duration="5221000" />
+      <workItem from="1567231106457" duration="13212000" />
+      <workItem from="1567261911851" duration="16000" />
+      <workItem from="1567264622149" duration="141000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>

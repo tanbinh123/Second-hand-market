@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #efefef;
+}
+header{
+    width: 100%;
+    height: 60px;
+    color: white;
+    display: flex;
+    background: #336699;
+}
+header .logo{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header .logo-img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+header .logo-title{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    font-weight: bold;
+    margin-left: 10px;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+header .nav{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+header .nav img{
+    margin-left: 20px;
+}
+.menu{
+    color: white;
+    width: 180px;
+    padding: 2px 10px 10px 10px;
+    top: 60px;
+    bottom: 0;
+    position: absolute;
+    background: #33aadd;
+}
+.menu-head{
+    margin: 0 auto;
+    padding-top: 2px;
+    text-align: center;
+}
+.menu-head a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.menu-head a:hover{
+    color: #ff5000;
+}
+.menu-list li{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    border-radius: 5px;
+}
+.menu-list li:hover, .menu-list label:hover{
+    color: #33aadd;
+    cursor: pointer;
+    background: white;
+    font-weight: bold;
+}
+.menu-list img{
+    width: 25px;
+    height: 25px;
+    padding: 5px 5px 5px 40px;
+}
+.index{
+    top: 60px;
+    left: 200px;
+    right: 0;
+    bottom: 40px;
+    position: absolute;
+}
+.frame{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    background: #336699;
+    position: absolute;
+    bottom: 0;
+}
+.copyright{
+    padding-top: 10px;
+}
