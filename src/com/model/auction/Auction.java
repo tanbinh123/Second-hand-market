@@ -3,6 +3,7 @@ package com.model.auction;
 import com.model.index.Com;
 import com.model.index.Db;
 
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 /**

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="team2@39.105.28.118">
+<dataSource name="c2c@39.105.28.118">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.16">
     <root id="1">
       <ServerVersion>5.5.62</ServerVersion>
@@ -7,11 +7,11 @@
       <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
       <DefaultCasing>exact</DefaultCasing>
     </root>
-    <schema id="2" parent="1" name="information_schema">
+    <schema id="2" parent="1" name="c2c">
+      <Current>1</Current>
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="3" parent="1" name="team2">
-      <Current>1</Current>
+    <schema id="3" parent="1" name="information_schema">
       <Collation>utf8_general_ci</Collation>
     </schema>
     <schema id="4" parent="1" name="test">
@@ -805,22 +805,22 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="202" parent="3" name="admin"/>
-    <table id="203" parent="3" name="auction"/>
-    <table id="204" parent="3" name="auction_order"/>
-    <table id="205" parent="3" name="cart"/>
-    <table id="206" parent="3" name="classify"/>
-    <table id="207" parent="3" name="comment"/>
-    <table id="208" parent="3" name="cooperation"/>
-    <table id="209" parent="3" name="feedback"/>
-    <table id="210" parent="3" name="goods"/>
-    <table id="211" parent="3" name="message"/>
-    <table id="212" parent="3" name="order"/>
-    <table id="213" parent="3" name="store"/>
-    <table id="214" parent="3" name="system_admin"/>
-    <table id="215" parent="3" name="system_config"/>
-    <table id="216" parent="3" name="user"/>
-    <table id="217" parent="3" name="user_info"/>
+    <table id="202" parent="2" name="admin"/>
+    <table id="203" parent="2" name="auction"/>
+    <table id="204" parent="2" name="auction_order"/>
+    <table id="205" parent="2" name="cart"/>
+    <table id="206" parent="2" name="classify"/>
+    <table id="207" parent="2" name="comment"/>
+    <table id="208" parent="2" name="cooperation"/>
+    <table id="209" parent="2" name="feedback"/>
+    <table id="210" parent="2" name="goods"/>
+    <table id="211" parent="2" name="message"/>
+    <table id="212" parent="2" name="order"/>
+    <table id="213" parent="2" name="store"/>
+    <table id="214" parent="2" name="system_admin"/>
+    <table id="215" parent="2" name="system_config"/>
+    <table id="216" parent="2" name="user"/>
+    <table id="217" parent="2" name="user_info"/>
     <column id="218" parent="202" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>

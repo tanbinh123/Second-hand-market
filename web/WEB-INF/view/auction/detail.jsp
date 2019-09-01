@@ -87,7 +87,7 @@
                 <div class="goods-data-title">商品简介</div>
                 <div class="goods-data-head">
                     <div class="goods-img">
-                        <img class="detail-img" width="200px" height="200px" alt="" src=""/>
+                        <img class="detail-img" width="200px" height="200px" alt="" src="" style="border-radius: 2px;border: 1px solid #efefef;"/>
                     </div>
                     <div class="goods-about">
                         <div>商品名称：<label class="detail-title"></label></div>
@@ -97,10 +97,12 @@
                                 <div class="detail-about" style="display: inline-block"></div>
                             </div>
                         </div>
-                        <div class="detail-price" style="font-size: 20px;color: #ff5000;font-weight: bold;">价格：￥${list.get(4)}</div>
+                        <div class="detail-price" style="font-size: 20px;color: #ff5000;font-weight: bold;">价格：￥</div>
                         <div class="goods-button">
-                            <a href="${pageContext.request.contextPath}/order/add?goods=<%=request.getParameter("gid")%>"><button>立即购买</button></a>
-                            <a href="${pageContext.request.contextPath}/cart/add?goods=<%=request.getParameter("gid")%>"><button>加入购物车</button></a>
+                            <label>
+                                我的竞价：<input class="order-price"/>
+                            </label>
+                            <button class="add-order">提交竞价</button>
                         </div>
                     </div>
                 </div>
@@ -109,7 +111,7 @@
             <div class="goods-data-div" style="margin-top: 10px">
                 <div class="goods-data-title">商品详情</div>
                 <div class="goods-data-head" style="padding-left: 20px">
-                    ${list.get(5)}
+                    <label class="detail-about"></label>
                 </div>
             </div>
         </div>
@@ -120,10 +122,13 @@
 
 <script>
     $(function () {
+        let title = null;
+        //商品信息接口
         $.post("check", {gid:'<%=request.getParameter("gid")%>'}, function (res) {
             let data = res[0];
+            title = data.title;
             $(".detail-img").attr("src",data.image);
-            $(".detail-title").text(data.title);
+            $(".detail-title").html(data.title);
             $(".detail-about").html(data.content);
             $(".detail-price").append(data.begin_price);
         });
@@ -138,5 +143,12 @@
             }
             $("body").html("结束时间：" + time + "秒");
         }, 1000);
+        //添加订单接口
+        $(".add-order").click(function (res) {
+            let gid = "<%=request.getParameter("gid")%>";
+            $.post("add_order", {gid:gid, title:title, price:$(".order-price").val()}, function (res) {
+                alert(title)
+            })
+        })
     })
 </script>

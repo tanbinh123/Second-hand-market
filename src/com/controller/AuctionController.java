@@ -48,6 +48,9 @@ public class AuctionController {
      */
     @RequestMapping("index")
     public String Index(Model model, HttpSession session){
+        if(session.getAttribute("uid") == null){
+            return "redirect:/user/login";
+        }
         if(session.getAttribute("auction") == null){
             Auction auction = new Auction();
             List list = auction.List();
@@ -169,7 +172,7 @@ public class AuctionController {
     @ResponseBody
     public boolean AddOrder(String gid, String title, String price, HttpSession session){
         Auction auction = new Auction();
-        return auction.addOrder((String)session.getAttribute("uid"), gid, title, price);
+        return auction.addOrder(gid, (String)session.getAttribute("uid"), title, price);
     }
 
     /**
