@@ -1,8 +1,6 @@
 package com.controller;
 
-import java.util.ArrayList;
 import com.model.index.Com;
-import com.model.index.Main;
 import org.springframework.ui.Model;
 import javax.servlet.http.HttpSession;
 import javax.servlet.http.HttpServletRequest;
@@ -25,7 +23,11 @@ public class IndexController {
      * @return 显示页面
      */
     @RequestMapping("index")
-    public String Index(Model model, HttpServletRequest request) {
+    public String Index(Model model, HttpServletRequest request, HttpSession session) {
+        if(session.getAttribute("welcome") == null){
+            session.setAttribute("welcome", Com.Time());
+            model.addAttribute("msg", "欢迎来到转转网二手跳蚤市场！");
+        }
         model.addAttribute("title", "转转网");
         //商品推荐
         model.addAttribute("recommend", request.getServletContext().getAttribute("recommend"));
