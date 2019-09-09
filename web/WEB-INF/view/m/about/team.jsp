@@ -52,30 +52,27 @@
 </style>
 
 <header>
-    <div class="title">关于我们</div>
+    <div class="title">开发团队</div>
     <jsp:include page="menu.jsp"/>
 </header>
 
 <div class="body">
     <div class="list">
         <div>
-            <div style="float: right">
-                <img src="${pageContext.request.contextPath}/static/img/login.png" width="170px" alt=""/>
-            </div>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                转转网是辽宁科技大学大数据协会项目组倾力打造的闲置二手交易平台。全力打造最专业的校园二手交易平台，为用户提供更有保障的、专业的、放心的产品与服务。在转转，我们努力让买卖闲置物品这件事变得更轻松！
+            <p>
+                领导组织：辽宁科技大学大数据协会
             </p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                二手跳蚤市场顾名思义就是一个提供给个人或商家发布二手物品交易信息的网络平台，一般为免费发布。二手商品交易网是电子商务的一种具体应用，是一个虚拟化的市场，借助Internet为买卖双方提供一个快捷方便的交易平台。凡是想要在网上买卖二手商品的人，只要在二手商品交易网上注册，找到或发布需要交易的商品，留下相应的信息，买卖双方取得联系即可进行交易。二手物品：离开销售商环节后，在消费者层面再次流通的所有物品。一旦货物进入消费者个人或企业，由消费者个人或企业发起转让的所有物品。一般说来，一个完整的二手商品交易网要具备如下三个部分：
+            <p>
+                团队名称：开发者大赛项目C组
             </p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                客户：在网上购物中，客户一般都使用浏览器进行浏览、购买商品等操作。
+            <p>
+                小组组长：龙远吉
             </p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                商家：在交易流程中，商家要发布或者修改商品信息、送货、收款、处理退货等。
+            <p>
+                小组成员：李天华 李常丽 张子天 贺自德
             </p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                管理员：对客户、商家和商品进行管理，删除客户和商家的信息，对发布的商品进行整理等。
+            <p>
+                团队口号：转转，让买卖闲置物品这件事变得更轻松！
             </p>
         </div>
     </div>

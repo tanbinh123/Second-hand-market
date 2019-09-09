@@ -9,15 +9,15 @@
 
 <style>
     .top-menu{
-        top: 14px;
+        top: 10px;
         right: 0;
         position: absolute;
     }
     .top-menu-ico{
-        width: 20px;
-        height: 3px;
+        width: 22px;
+        height: 4px;
         margin-right: 10px;
-        margin-bottom: 5px;
+        margin-bottom: 4px;
         background: white;
     }
     .top-menu:hover .top-menu-list{
@@ -26,7 +26,7 @@
     .top-menu-list{
         display: none;
         color: #cccccc;
-        top: 26px;
+        top: 30px;
         right: 0;
         position: absolute;
         width: 200px;
@@ -49,6 +49,7 @@
 </style>
 
 <div class="top-menu">
+    <div class="top-menu-ico"></div>
     <div class="top-menu-ico"></div>
     <div class="top-menu-ico"></div>
     <div class="top-menu-list">

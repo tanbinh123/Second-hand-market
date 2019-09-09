@@ -1,11 +1,13 @@
 package com.controller;
 
 import com.model.feedback.feedback;
+import com.model.index.Com;
 import com.model.index.Db;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.servlet.http.HttpServletRequest;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.util.*;
@@ -24,8 +26,12 @@ public class FeedbackController{
      * @return
      */
     @RequestMapping("page")
-    public String Page(Model model){
+    public String Page(Model model, HttpServletRequest request){
             model.addAttribute("title","提交反馈");
+        //移动自适应
+        if(Com.isMobileDevice(request)){
+            return "m/feedback/page";
+        }
             return "feedback/page";
     }
 

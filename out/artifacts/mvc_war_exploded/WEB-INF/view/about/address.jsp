@@ -69,6 +69,7 @@
                     <div>单&nbsp;&nbsp;位：辽宁科技大学大电子与信息工程学院</div>
                     <div>地&nbsp;&nbsp;址：辽宁省鞍山市高新区千山中路185—1号</div>
                 </div>
+                <div id="container" style="width: 100%;height: 300px;"></div>
                 <script charset="utf-8" src="https://map.qq.com/api/js?v=2.exp&key=XHLBZ-2NA34-RZDUO-XDEOR-URMDE-J6BGC"></script>
                 <script>
                     $(function(){
@@ -78,7 +79,6 @@
                         });
                     })
                 </script>
-                <div id="container" style="width: 100%;height: 300px;"></div>
             </div>
         </div>
     </div>

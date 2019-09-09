@@ -95,7 +95,7 @@
     <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/view/m/coop" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -106,32 +106,32 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20229885" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.controller" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cnzxo\Desktop\c2c\web\WEB-INF" />
+      <recent name="C:\Users\cnzxo\Desktop\c2c\web" />
+      <recent name="C:\Users\zx151\Desktop\www\web\WEB-INF\view" />
+      <recent name="C:\Users\zx151\Desktop\www\web\WEB-INF" />
+      <recent name="C:\Users\zx151\Desktop\www\web" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cnzxo\Desktop\c2c\web\WEB-INF\view\m\coop" />
       <recent name="C:\Users\zx151\Desktop\mvc\web\WEB-INF\view\m" />
       <recent name="C:\Users\zx151\Desktop\mvc\src\com\model\sms" />
       <recent name="C:\Users\zx151\Desktop\mvc\src\com\model\sms2" />
       <recent name="C:\Users\zx151\Desktop\mvc\src\com\model" />
-      <recent name="C:\Users\zx151\Desktop\mvc\web\WEB-INF\lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\zx151\Desktop\www\web\WEB-INF\view" />
-      <recent name="C:\Users\zx151\Desktop\www\web\WEB-INF" />
-      <recent name="C:\Users\zx151\Desktop\www\web" />
-      <recent name="D:\SUB\PRO\Java\mvc\web" />
-      <recent name="D:\SUB\PRO\Java\mvc\web\WEB-INF" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,7 +327,8 @@
       <workItem from="1567231106457" duration="13212000" />
       <workItem from="1567261911851" duration="16000" />
       <workItem from="1567264622149" duration="141000" />
-      <workItem from="1567326635879" duration="3212000" />
+      <workItem from="1567326635879" duration="3995000" />
+      <workItem from="1568044741983" duration="8778000" />
     </task>
     <servers />
   </component>

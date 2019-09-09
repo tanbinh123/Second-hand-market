@@ -21,8 +21,7 @@ public class Coop {
     public boolean Add(String name, String phone, String content){
         try{
             Db db = new Db();
-            Com com = new Com();
-            String time = com.Time();
+            String time = Com.Time();
             String [] key = {"name", "phone", "content", "time"};
             String [] val = {name, phone, content, time};
             db.Insert("cooperation", key, val);

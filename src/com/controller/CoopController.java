@@ -1,10 +1,14 @@
 package com.controller;
 
 import com.model.coop.Coop;
+import com.model.index.Com;
 import org.springframework.ui.Model;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import javax.servlet.http.HttpServletRequest;
+import java.net.http.HttpRequest;
 
 /**
  * @program: team2
@@ -22,8 +26,12 @@ public class CoopController {
      * @return 显示页面
      */
     @RequestMapping("index")
-    public String Index(Model model){
+    public String Index(Model model, HttpServletRequest request){
         model.addAttribute("title", "关于合作");
+        //移动自适应
+        if(Com.isMobileDevice(request)){
+            return "m/coop/index";
+        }
         return "coop/index";
     }
 
@@ -33,8 +41,12 @@ public class CoopController {
      * @return 显示页面
      */
     @RequestMapping("case")
-    public String Case(Model model){
+    public String Case(Model model, HttpServletRequest request){
         model.addAttribute("title", "成功案例");
+        //移动自适应
+        if(Com.isMobileDevice(request)){
+            return "m/coop/case";
+        }
         return "coop/case";
     }
 
@@ -44,8 +56,12 @@ public class CoopController {
      * @return 显示页面
      */
     @RequestMapping("course")
-    public String Course(Model model){
+    public String Course(Model model, HttpServletRequest request){
         model.addAttribute("title", "发展历程");
+        //移动自适应
+        if(Com.isMobileDevice(request)){
+            return "m/coop/course";
+        }
         return "coop/course";
     }
 
@@ -55,8 +71,12 @@ public class CoopController {
      * @return 显示页面
      */
     @RequestMapping("apply")
-    public String Apply(Model model){
+    public String Apply(Model model, HttpServletRequest request){
         model.addAttribute("title", "申请合作");
+        //移动自适应
+        if(Com.isMobileDevice(request)){
+            return "m/coop/apply";
+        }
         return "coop/apply";
     }
 

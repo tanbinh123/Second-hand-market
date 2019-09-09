@@ -63,7 +63,7 @@
             ArrayList list = (ArrayList)request.getAttribute("list");
             for (int i = 1; i < list.size() + 1; i++){
                 if(i % 7 ==1){
-                    out.print("<a href=\"goods/detail?gid=" + list.get(i - 1) + "\">");
+                    out.print("<a href=\"../goods/detail?gid=" + list.get(i - 1) + "\">");
                     out.print("<div class=\"div\">");
                     if(list.get(i + 2) == null){
                         out.print("<div><img src=\"../static/img/demo.png\" width=\"100%\"/></div>");
