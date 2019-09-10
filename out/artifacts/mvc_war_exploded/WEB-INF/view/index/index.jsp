@@ -6,6 +6,20 @@
 <jsp:include page="header.jsp"/>
 <jsp:include page="banner.jsp"/>
 
+<script type="text/javascript">
+    (function (w, d, s, i, v, j, b) {
+        w[i] = w[i] || function () {
+            (w[i].v = w[i].v || []).push(arguments)
+        };
+        j = d.createElement(s),
+            b = d.getElementsByTagName(s)[0];
+        j.async = true;
+        j.charset = "UTF-8";
+        j.src = "https://www.v5kf.com/165700/287440301ed3e/v5kf.js";
+        b.parentNode.insertBefore(j, b);
+    })(window, document, "script", "V5CHAT");
+</script>
+
 <style>
     .body-div-show{
         width: 1200px;
@@ -128,7 +142,7 @@
     .show-list li{
         float: left;
         width: 190px;
-        height: 280px;
+        height: 260px;
         padding: 20px;
         border: 1px solid #efefef;
         list-style: none;
@@ -137,7 +151,7 @@
         border: 1px solid #ff5000;
     }
     .show-list .title{
-        height: 50px;
+        height: 30px;
         font-size: 14px;
         margin-top: 10px;
     }
@@ -147,6 +161,12 @@
     .show-list .price{
         color: #ff5000;
         font-size: 20px;
+        display: flex;
+    }
+    .price p{
+        margin-left: 60px;
+        color: #aaaaaa;
+        font-size: 12px;
     }
 </style>
 
@@ -269,7 +289,7 @@
                                 out.print("<img src=\"" + list.get(i + 2) + "\" width=\"100%\"/>");
                             }
                             out.print("<div class=\"title\">"+list.get(i + 1)+"</div>");
-                            out.print("<div class=\"price\">¥"+list.get(i)+"</div>");
+                            out.print("<div class=\"price\">¥"+list.get(i)+"<p>浏览量：729</p></div>");
                             out.print("</li>");
                             out.print("</a>");
                         }
