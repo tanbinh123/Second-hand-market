@@ -2,21 +2,16 @@ package com.controller;
 
 import java.util.Date;
 import java.sql.ResultSet;
-import java.util.ArrayList;
-import java.util.List;
-
+import java.util.*;
 import com.model.index.Com;
 import com.model.index.Db;
 import com.model.user.User;
 import com.model.upload.Upload;
 import org.springframework.ui.Model;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
+import javax.servlet.http.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.support.SessionStatus;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
 /**
@@ -114,15 +109,15 @@ public class UserController {
             return "user/login";
         }
         //检测验证码是否正确
-//        if(!vcode.equals(session.getAttribute("vcode"))){
-//            model.addAttribute("msg","验证码错误");
-//            model.addAttribute("title","用户登录");
-//            //移动设备自适应
-//            if(Com.isMobileDevice(request)){
-//                return "m/user/login";
-//            }
-//            return "user/login";
-//        }
+        if(!vcode.equals(session.getAttribute("vcode"))){
+            model.addAttribute("msg","验证码错误");
+            model.addAttribute("title","用户登录");
+            //移动设备自适应
+            if(Com.isMobileDevice(request)){
+                return "m/user/login";
+            }
+            return "user/login";
+        }
         try{
             User user = new User(username, password);
             if(user.checkLogin()){
